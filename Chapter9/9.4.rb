@@ -12,7 +12,7 @@ users.each do |user|
   rescue => e
     # 例外のクラス名、エラーメッセージ、バックトレースをターミナルに入力
     # (ログファイルがあればそこに出力するほうがベター)
-    puts "#{e.class}: #{e.massage}"
+    puts "#{e.class}: #{e.message}"
     puts e.backtrace
   end
 end
